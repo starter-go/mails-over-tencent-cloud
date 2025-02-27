@@ -1,0 +1,33 @@
+{
+    "configen": {
+        "version": "4",
+        "sources": [
+            {
+                "id": "driver",
+                "path": "src/driver/golang",
+                "r": true
+            },
+            {
+                "id": "test",
+                "path": "src/test/golang",
+                "r": true
+            }
+        ],
+        "destinations": [
+            {
+                "id": "driver",
+                "path": "gen/driver4motc",
+                "sources": [
+                    "driver"
+                ]
+            },
+            {
+                "id": "test",
+                "path": "gen/test4motc",
+                "sources": [
+                    "test"
+                ]
+            }
+        ]
+    }
+}
