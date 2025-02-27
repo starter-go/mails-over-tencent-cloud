@@ -9,7 +9,7 @@ import (
 const (
 	theModuleName     = "github.com/starter-go/mails-over-tencent-cloud"
 	theModuleVersion  = "v0.0.1"
-	theModuleRevision = 1
+	theModuleRevision = 2
 )
 
 ////////////////////////////////////////////////////////////////////////////////
